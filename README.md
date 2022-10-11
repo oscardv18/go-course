@@ -129,3 +129,11 @@ Signed integer types supported by Go is shown below.
 - **uint16** (16-bit unsigned integer whose range is 0 to 65535 )
 - **uint32** (32-bit unsigned integer whose range is 0 to 4294967295 )
 - **uint64** (64-bit unsigned integer whose range is 0 to 18446744073709551615 )
+
+### Float-point numbers in golang
+Go supports the IEEE-754 32-bit and 64-bit floating-point numbers extensively.
+
+| Date-Type |              Description              |
+|-----------|:-------------------------------------:|
+| float32   | 32-bit IEEE 754 floating-point number |
+| float64   | 64-bit IEEE 754 floating-point number |
