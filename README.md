@@ -72,3 +72,60 @@ func main() {
 
 ## Forms of print messages
 
+- Simple message: `fmt.Println("Hello World")`
+- Message with variables: 
+```go
+var name = "Oscar"
+fmt.Println("Hello ", name)
+```
+- Printing using the function Printf:
+```go
+var name = "Oscar"
+fmt.Printf("Hello %v", name)
+// The %v indicate where the value will appear in the message
+```
+Package fmt implements formatted I/O with functions analogous to C's printf and scanf. The format 'verbs' are derived from C's but are simpler. For more information visit the [web] of the packages golang
+
+[web]: https://pkg.go.dev/fmt
+
+## Data Types in GO
+
+Data types specify the type of data that a valid Go variable can hold. 
+
+- **Basic type:** Numbers, strings, and booleans come under this category.
+- **Aggregate type:** Array and structs come under this category.
+- **Reference type:** Pointers, slices, maps, functions, and channels come under this category.
+- **Interface type**
+
+Each data type can do different things and behaves differently
+
+### How to declare variables and constants with data types?
+
+```go
+var age int = 22 // variable of type integer
+const dni int = 27455444 // const of type integer
+const name string = "Oscar" // const of type string
+```
+
+The Basic Data Types are further categorized into three subcategories which are
+
+- **Numbers**
+- **Booleans**
+- **Strings**
+
+### Integers:
+***Signed Integers***:
+
+Signed integer types supported by Go is shown below.
+
+- **int8** (8-bit signed integer whose range is -128 to 127)
+- **int16** (16-bit signed integer whose range is -32768 to 32767)
+- **int32** (32-bit signed integer whose range is -2147483648 to 2147483647)
+- **int64** (64-bit signed integer whose range is -9223372036854775808 to 9223372036854775807)
+
+***Unsigned Integers***:
+
+- **uint8** (8-bit unsigned integer whose range is 0 to 255 )
+- **uint16** (16-bit unsigned integer whose range is 0 to 65535 )
+- **uint32** (32-bit unsigned integer whose range is 0 to 4294967295 )
+- **uint64** (64-bit unsigned integer whose range is 0 to 18446744073709551615 )
