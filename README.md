@@ -37,7 +37,37 @@ In go is very used the package concept, it is the way in which a project organiz
 
 ```go
 var name = "Oscar"
-fmt.Printf("Hello %v", name)
+fmt.Printf("Hello %v\n", name)
+```
+
+### How to import package in go?
+```go
+package main
+
+import "fmt"
+
+func main() {
+    var name = "Oscar"
+    fmt.Printf("Hello %v\n", name)
+}
+```
+
+The statement `import "package"` is the way for import only one package, for various package is the this way:
+
+```go
+import (
+    "package1"
+    "package2"...
+)
+```
+
+### What is function main?
+Every file in go must have an entry point, this it is the proposite of the function main, in it the execution of all the functions and other parts of the application occurs
+
+```go
+func main() {
+    ...
+}
 ```
 
 ## Forms of print messages
