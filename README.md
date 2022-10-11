@@ -38,7 +38,7 @@ In go is very used the package concept, it is the way in which a project organiz
 ```
 var name = "Oscar"
 fmt.Printf("Hello %v", name)
-```
+```go
 
 ## Forms of print messages
 
